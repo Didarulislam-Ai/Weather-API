@@ -1,0 +1,54 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: silver;
+    background-image: url(https://source.unsplash.com/1600x900/?Landscape);
+    background-size: cover;
+}
+
+.card{
+    background: #000000d0;
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+button{
+    border-radius: 50%;
+    border: none;
+    height: 24px;
+    width: 24px;
+    outline: none;
+    background: #7c7c7c;
+}
+button:hover{
+    background: #7c7c7c6b;
+    color: white;
+}
+
+.card--search--bar{
+    border: none;
+    border-radius: 24px;
+    padding: 0.4em;
+    background: #7c7c7c2b;
+    color: rgb(151, 147, 147);
+    width: 200px;
+}
+
+.temp{
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+.city_name{
+    font-size: 34px;
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+
+.humidity{
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
